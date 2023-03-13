@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="E:/PerScholas/FrontEnd/Restaurant/menuStyles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <h1>HERE'S OUR MENU</h1> -->
+
+    <div class="main_container">
+        <div class="restaurant_div">
+            <nav class="main_nav">
+                <ul class="nav_ul"> 
+                    <li class="nav_item" id="home_tab"><a href="./islandflavors.html"><center>HOME</center> </a></li>
+                    <li class="nav_item" id="about_tab"><a href="./about.html"><center>ABOUT</center></a></li>
+                    <li class="nav_item" id="contact_tab"><a href="./contact.html"><center>CONTACT</center></a></li>
+                    <li class="nav_item" id="location_tab"><a href="./location.html"><center>LOCATION</center></a></li>
+                    <li class="nav_item" id="menu_tab"><a href="./menu.html"><center>MENU</center></a></li>
+                    <!-- <li class="nav_item" id="order_tab"><a href="./onlineorder.html"><center>ORDER ONLINE</center></a></li> -->
+                </ul>
+            </nav>
+        </div>
+
+        <div class="slideshow_container">
+            <div class="mySlides fade">
+                <img src="./images/pic2.jpg" style="width:100%; height: 500px">
+            </div>
+        </div>
+
+<!-- ***************************** Menu Section *****************************  -->
+        <div class="menu_div">
+            <div class="food_div">
+                <button class="food breakfast" onclick="displayBreakfast()">Breakfast</button>
+                <button class="food lunch" onclick="displayLunch()">Lunch</button>
+                <button class="food dinner" onclick="displayDinner()">Dinner</button>
+                
+            </div>
+                
+            <div class="beverage_div">
+                <button class="drinknmore fritay" onclick="displayFritay()">Fritay</button>  
+                <button class="drinknmore beernwine" onclick="displayBeernWine()"> Beer & wine</button>
+            </div>
+
+            <!-- Breakfast -->
+            <section id="breakfast">
+                <h2>Breakfast</h2>
+                <div class="breakfast_div">
+                    <div class="menu_description">
+                        <ul class="ulist1">
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Date Pudding</p>
+                                <p>With butterscotch sauce, vanilla ice cream, and a sweet pastry.</p>
+                                <strong>
+                                    "10.00"
+                                </strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Chocolate cake</p>
+                                <p>A decadent cake with thick caramel sauce in the centre.</p>
+                                <strong>
+                                    "12.00"
+                                </strong>
+                                " per slice"
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu_description">
+                        <ul class="ulist2">
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Beef Short Rib Hash</p>
+                                <p>two eggs, braised beef, yukon potato &amp; pickled chili salsa verde</p>
+                                <strong>"14.00"</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">BELT</p>
+                                <p>thick bacon, tomato, lettuce, over easy egg &amp; basil mayo on toasted sourdough</p>
+                                <strong>"15.00"</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Baked Buckwheat Pancake</p>
+                                <p>blueberry compote, maple syrup (allow 20 min)</p>
+                                <strong>"13.00"</strong>
+                            </li>
+                            <li class="menu-item">
+                                <p class="menu_item_heading">Avocado Bagel</p>
+                                <p>cream cheese, cucumber, tomato, red onion &amp; sprouts</p>        
+                                <strong>13.00</strong> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            <!-- Lunch -->
+            </section>
+            <!-- Lunch -->
+            <section id="lunch">
+                <h2>Lunch</h2>
+                <div class="lunch_div">
+                    <div class="menu_description">
+                        <h2>Salads</h2>
+                        <ul class="ulist1">
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Black Kale Salad</p>
+                                <p>with cherry tomatoes, cucumber, sunflower seeds &amp; tahini dressing</p>
+                                <strong>13.00</strong> 
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Chicken Arugula Salad</p>
+                                <p>with dates, pecorino &amp; harissa vinaigrette</p>
+                                <strong>14.00</strong> 
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Macro Bowl</p>
+                                <p>avocado, marinated beets, cucumbers, sprouted legumes, green beans, hard cooked egg &amp; Koda Farms brown rice</p>
+                                <strong>15.00</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu_description">
+                        <h2>Sandwiches</h2>
+                        <ul class="ulist1">
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Brie Baguette Sandwich</p>
+                                <p>with apricot jam &amp; pounded almonds</p>
+                                <strong>10.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Prosciutto &amp; Butter Baguette</p>
+                                <strong>9.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Smoked Ham &amp; Cheddar</p>
+                                <p>on poppy seed sourdough with mayo &amp; homemade pickles</p>
+                                <strong>11.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Hippie Sandwich</p>
+                                <p>green pea mash, avocado, feta, lettuce, sprouts &amp; herb dressing</p>
+                                <strong>13.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Turkey Sandwich</p>
+                                <p>roasted turkey, avocado, cheddar cheese, iceberg, 1000 Island dressing</p>
+                                <strong>13.00</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dinner -->
+            <section id="dinner" class="dinner_class">
+                <div class="menu_description">
+                    <h2>Dinner</h2>
+                    <div class="dinner_div">
+                        <div class="menu_description">
+                            <ul class="ulist1">
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Sonora Wheat Croissont</p>
+                                    <strong>4.00</strong>
+                                </li>
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Chocolate Croissant</p>
+                                    <strong>4.50</strong>
+                                </li>
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Ham &amp; Gruyere Croissant</p>
+                                    <strong>5.00</strong>
+                                </li>
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Pistachio Croissant</p>
+                                    <strong>5.00</strong>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu_description">
+                            <ul class="ulist1">
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Spinach Breakfast Galette</p>
+                                    <strong>6.00</strong>
+                                </li>
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Mushroom Quiche</p>
+                                    <strong>8.00</strong>
+                                </li>
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Bacon Quiche</p>
+                                    <strong>8.00</strong>
+                                </li>
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Swedish Cardamom Bun</p>
+                                    <strong>4.00</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Fritay -->
+            <section id="fritay" class="fritay_class">
+                <div class="menu_description">
+                    <h2>Fritay</h2>
+                    <div class="fritay_div">
+                        <div class="menu_description">
+                            <ul class="ulist1">
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Akra</p>
+                                    <strong>9.00</strong>
+                                </li>
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Marinade</p>
+                                    <strong>7.00</strong>
+                                </li>
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Pate Kode (Patty)</p>
+                                    <strong>10.00</strong>
+                                </li>
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Lam Fri (Fried breadfruit chips)</p>
+                                    <strong>9.00</strong>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu_description">
+                            <ul class="ulist1">
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Lambi (Conch)</p>
+                                    <strong>15.00</strong>
+                                </li>
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Griot (Fried Pork)</p>
+                                    <strong>12.00</strong>
+                                </li>
+                                <li class="menu_item">
+                                    <p class="menu_item_heading">Taso (Fried Goat)</p>
+                                    <strong>13.00</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Beer and Wine -->
+            <section id="beernwine">
+                <h2>Beer & Wine</h2>
+                <div class="beernwine_div">
+                    <div class="menu_description">
+                        <h2>Red Wine</h2>
+                        <ul class="ulist1">
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Camp 2018 Cabernet Franc Sonoma</p>
+                                <strong>18.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Domaine de la Damase 2019 Grenache</p>
+                                <strong>12.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Folk Machine 2019 Pinot Noir Central Coast</p>
+                                <strong>18.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Broc Cellars 2019 North Coast La Boutanche Zinfandel Blend Liters</p>
+                                <strong>18.00</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu_description">
+                        <h2>White Wine</h2>
+                        <ul class="ulist1">
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Domaine de la Damase 2019 Picpoul</p>
+                                <strong>14.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Loella 2019 Pinot Gris Bianchi Vineyard Santa Lucia Highlands</p>
+                                <strong>15.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Land of Saints 2018 Sauvignon Blanc Los Olivos District</p>
+                                <strong>15.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Lo-Fi 2017 Chardonnay Santa Barbara County</p>
+                                <strong>15.00</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu_description">
+                        <h2>Rum</h2>
+                        <ul class="ulist1">
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Rhum Barbancourt 5 Star Aged 8 years</p>
+                                <strong>25.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Rhum Barbancourt 3 Star Aged 4 years</p>
+                                <strong>21.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Rhum Barbancourt Pango</p>
+                                <strong>18.00</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Rhum Barbancourt White</p>
+                                <strong>17.00</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu_description">
+                        <h2>Beer</h2>
+                        <ul class="ulist1">
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Prestige</p>
+                                <strong>2.12</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Kinanm'</p>
+                                <strong>2.28</strong>
+                            </li>
+                            <li class="menu_item">
+                                <p class="menu_item_heading">Portau Lokal Pale Ale</p>
+                                <strong>1.95</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        
+        <div style="background-color: rgba(255, 166, 0, 0.281); margin-top: 15%";>
+            <p>
+                <small>&copy; Copyright 2023</small>
+            </p>
+        </div>
+    </div>
+
+    <script src="./menu.js"></script>
+</body>
+</html>

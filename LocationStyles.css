@@ -1,0 +1,100 @@
+.main_container {
+    background-color: tan;
+    height: 100%;
+    padding-bottom: 10%;
+  }
+  
+  .restaurant_div {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: gray;
+    height: 40%;
+  }
+  .main_nav {
+    height: 40%; 
+  }
+  
+  .nav_ul {
+    height: 100px;
+  }
+  
+  .nav_item {
+    list-style-type: none;
+    display: inline-block;
+    border-left: solid 1px #ebebeb;
+    border-right: solid 1px #ebebeb;
+    padding-top: 30px;
+    height: 100px; 
+  }
+  
+  .nav_item>a {
+    text-decoration: none;
+    padding-top: -5px;
+  }
+  
+  #home_tab {
+    width: 25%;
+  }
+  
+  #about_tab {
+    width: 17.5%;
+  }
+  
+  #contact_tab {
+    width: 17.5%;
+  }
+  
+  #location_tab {
+    width: 17.5%;
+  }
+  
+  #menu_tab {
+    width: 17.5%;
+  }
+  
+  /* #order_tab {
+    width: 25%;
+  } */
+
+
+  /* PICTURE DISPLAY */
+.slideshow_container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -0.9%;
+}
+
+* {box-sizing: border-box;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  } 
+
+
+  /* ***************************** RESTAURANT LOCATION ***************************** */
+
+  .location_title {
+    margin-top: 5%;
+    padding-left: 40%;
+  }
+
+  .main_location_div {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .restaurant_locations {
+    display: flex;
+  }
+
+  .address {
+    flex: 1;
+    padding-left: 15%;
+  }
+
+  .address_ancher {
+    color: rgb(68, 134, 2);
+  }

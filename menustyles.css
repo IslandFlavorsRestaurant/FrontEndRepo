@@ -1,0 +1,243 @@
+.main_container {
+    background-color: tan;
+    height: 100%;
+    padding-bottom: 20%;
+}
+
+.restaurant_div {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: gray;
+    height: 40%;
+}
+.main_nav {
+    height: 40%; 
+}
+
+.nav_ul {
+    height: 100px;
+}
+
+.nav_item {
+    list-style-type: none;
+    display: inline-block;
+    border-left: solid 1px #ebebeb;
+    border-right: solid 1px #ebebeb;
+    padding-top: 30px;
+    height: 100px; 
+}
+
+.nav_item>a {
+    text-decoration: none;
+    padding-top: -5px;
+   
+}
+
+#home_tab {
+    width: 25%;
+}
+
+#about_tab {
+    width: 17.5%;
+}
+
+#contact_tab {
+    width: 17.5%;
+}
+
+#location_tab {
+    width: 17.5%;
+}
+
+#menu_tab {
+    width: 17.5%;
+}
+
+/* #order_tab {
+    width: 25%;
+} */
+
+.menu_div {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    border: solid 1px red;
+}
+
+/* PICTURE DISPLAY */
+.slideshow_container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -0.9%;
+  }
+  
+  * {box-sizing: border-box;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  } 
+
+/* ***************************** MENU ITEMS ***************************** */
+
+.food_div {
+  /* width: 50%;   */
+  padding-left: 40%;
+}
+
+.beverage_div {
+    padding-left: 44%;   
+}
+.food {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.drinknmore {
+    position: relative;
+    display: block;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+.breakfast {
+    height: 50px;
+    width: 140px;
+    margin-right: .5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.lunch {
+    height: 50px;
+    width: 120px;
+    margin-right: .5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.dinner {
+    height: 50px;
+    width: 120px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.fritay {
+    height: 50px;
+    width: 120px;
+    margin-right: .5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.beernwine {
+    height: 50px;
+    width: 140px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.food {
+    top: -25px;
+ }
+ 
+ .drinknmore {
+    top: -10px;
+ }
+ .food:hover {
+    color: #FCFAF6;
+    background-color: #364c48; 
+}
+
+.drinknmore:hover {
+    color: #FCFAF6;
+    background-color: #364c48; 
+}
+
+/* #breakfast {
+    display: none;
+} */
+
+#lunch {
+    display: none;
+}
+
+#dinner {
+    display: none;
+}
+
+#fritay {
+    display: none;
+}
+
+#beernwine {
+    display: none;
+}
+
+.breakfast_div {
+    display: flex;
+}
+
+.lunch_div {
+    display: flex;
+}
+
+.dinner_div {
+    display: flex;
+}
+
+.fritay_div {
+    display: flex;
+}
+
+.beernwine_div {
+    display: flex;
+}
+
+.menu_description {
+    flex: 1;
+    border: none;
+}
+
+.menu_description:first-child {
+    margin-right: 20px;
+}
+
+#breakfast h2 {
+    position: relative;
+    text-align: center;
+    color: #364c48;
+}
+
+#lunch h2 {
+    position: relative;
+    text-align: center;
+    color: #364c48;
+}
+
+#dinner h2 {
+    position: relative;
+    text-align: center;
+    color: #364c48;
+}
+
+#fritay h2 {
+    position: relative;
+    text-align: center;
+    color: #364c48;
+}
+
+#beernwine h2 {
+    position: relative;
+    text-align: center;
+    color: #364c48;
+}

@@ -1,0 +1,154 @@
+
+.main_container {
+    background-color: tan;
+    height: 100%;
+    padding-bottom: 5em;
+}
+
+.restaurant_div {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: gray;
+    height: 40%;
+}
+.main_nav {
+    height: 40%;
+}
+
+.nav_ul {
+    height: 100px;
+  }
+
+.nav_item {
+    list-style-type: none;
+    display: inline-block;
+    border-left: solid 1px #ebebeb;
+    border-right: solid 1px #ebebeb;
+    padding-top: 30px;
+    height: 100px; 
+  }
+
+.nav_item>a {
+    text-decoration: none;
+    padding-top: -5px;
+  }
+
+#home_tab {
+    width: 25%;
+  }
+  
+  #about_tab {
+    width: 17.5%;
+  }
+  
+  #contact_tab {
+    width: 17.5%;
+  }
+  
+  #location_tab {
+    width: 17.5%;
+  }
+  
+  #menu_tab {
+    width: 17.5%;
+  }
+  
+  /* #order_tab {
+    width: 25%;
+  } */
+
+.text {
+    color: #32a8a8;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: relative;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+/* PICTURE DISPLAY */
+.slideshow_container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -0.9%;
+}
+
+* {box-sizing: border-box;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  } 
+
+section {
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+
+/* h1 {
+    
+    margin-top: 5em;
+    text-align: center;
+    color: rgb(0, 255, 191);
+    font-family: "Dancing Script", cursive;
+} */
+
+h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color:gray;
+    font-family: "Dancing Script", cursive;
+}
+
+.feedback_h3 {
+  margin-top: 5%;
+}
+
+.form_elem {
+  display: block;
+}
+
+.form_div {
+  display: flex;
+  background-color:bisque;
+  position: relative;
+  left: 20%;
+  border: none;
+  margin-top: 50px;
+  padding-left:100px;
+  padding-top: 50px;
+  padding-right: 80px;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+.form_vid {
+  margin-left: 8em;
+}
+
+.contact_form {
+margin-left: 50px;
+border: none;
+
+}
+
+.contact_labels {
+padding-top: 10px;
+}
+
+.submit {
+  width: 15em;
+  height: 3em;
+  background-color: rgb(20, 228, 20);
+  color: white;
+  border: none;
+  border: solid 1px #ccc;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-left: 28%;
+  margin-bottom: 30px;
+}

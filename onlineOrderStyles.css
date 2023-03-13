@@ -1,0 +1,82 @@
+.main_container {
+    /* background-color: black; */
+    background-color: tan;
+    height: 100%;
+}
+
+.restaurant_div {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: gray;
+    /* border: solid; */
+    /* border-color: chartreuse; */
+    height: 40%;
+}
+.main_nav {
+    /* border: solid; */
+    /* border-color: aqua; */
+    height: 40%; 
+}
+
+.nav_ul {
+    /* height: 200px; */
+    height: 100px;
+    /* height: fit-content; */
+}
+
+.nav_item {
+    list-style-type: none;
+    display: inline-block;
+    /* display: table-cell; */
+    /* border: solid; */
+    /* border-color: blueviolet; */
+    border-left: solid 1px #ebebeb;
+    border-right: solid 1px #ebebeb;
+    /* align-items: center; */
+    /* vertical-align: center; */
+    /* vertical-align: middle; */
+    padding-top: 30px;
+    height: 100px; 
+    /* width: 100px; */
+}
+
+.nav_item>a {
+    text-decoration: none;
+    padding-top: -5px;
+    /* vertical-align: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+#home_tab {
+    /* height: 5%; */
+    width: 20%;
+}
+
+#about_tab {
+    width: 12.5%;
+}
+
+#contact_tab {
+    width: 12.5%;
+}
+
+#location_tab {
+    width: 12.5%;
+}
+
+#menu_tab {
+    width: 12.5%;
+}
+
+#order_tab {
+    width: 25%;
+}
+
+.menu_div {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    border: solid 1px red;
+}

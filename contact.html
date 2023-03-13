@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="E:/PerScholas/FrontEnd/Restaurant/ContactStyles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="main_container">
+        <div class="restaurant_div">
+            <nav class="main_nav">
+                <ul class="nav_ul"> 
+                    <li class="nav_item" id="home_tab"><a href="./islandflavors.html"><center>HOME</center> </a></li>
+                    <li class="nav_item" id="about_tab"><a href="./about.html"><center>ABOUT</center></a></li>
+                    <li class="nav_item" id="contact_tab"><a href="./contact.html"><center>CONTACT</center></a></li>
+                    <li class="nav_item" id="location_tab"><a href="./location.html"><center>LOCATION</center></a></li>
+                    <li class="nav_item" id="menu_tab"><a href="./menu.html"><center>MENU</center></a></li>
+                    <!-- <li class="nav_item" id="order_tab"><a href="./onlineorder.html"><center>ORDER ONLINE</center></a></li> -->
+                </ul>
+            </nav>
+        </div>
+
+        <div class="slideshow_container">
+            <div class="mySlides fade">
+                <img src="./images/pic1.jpg" style="width:100%; height: 500px">
+            </div>
+        </div>
+
+        <div class="form_div">
+            <form action="" class="contact_form">
+                <label for="msg_topics" class="form_elem">Contact Us</label>
+                <select name="msg_topics" id="msg_topics" class="form_elem">
+                    <option value="client_want">I want to</option>
+                    <option value="leave_msg">Leave a Message</option>
+                    <option value="reservation">Inquire about reservations</option>
+                    <option value="catering">Inquire about your Catering Service</option>
+                </select>
+
+                <label for="" class="contact_labels">Name:</label>
+                <input type="text" placeholder="name" class="form_elem">
+                <label for="" class="contact_labels">Email</label>
+                <input type="text" placeholder="email" id="email" class="form_elem">
+                <label for="" class="contact_labels">Message</label>
+                <textarea name="message" id="message" cols="53" rows="10" data-rows="10" class="form_elem"></textarea>
+                
+                <button type="submit" name="submit" class="submit form_elem" id="submit" onclick="validateEmail()">Submit</button>
+            </form>
+            <img class="contact_gif" height="200" width="440" src="https://cdn.dribbble.com/users/3497212/screenshots/11476810/media/c18175dc05724f0c933fa8f49b2ff875.gif" alt="">
+        </div>
+
+        <div style="background-color: rgba(255, 166, 0, 0.281); margin-top: 15%";>
+            <p>
+                <small>&copy; Copyright 2023</small>
+            </p>
+        </div>
+    </div>
+
+    <script src="./contact.js"></script>
+</body>
+</html>
